@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - PetShop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- O conteúdo do cabeçalho vai aqui -->
+    </header>
+
+    <main class="container my-4">
+        <h1>Cadastro de Cliente e Pet</h1>
+        <form>
+            <h2>Cadastro do Cliente</h2>
+            <div class="form-group">
+                <label for="nomeCliente">Nome</label>
+                <input type="text" class="form-control" id="nomeCliente" placeholder="Nome completo">
+            </div>
+            <div class="form-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" class="form-control" id="telefone" placeholder="Telefone">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+
+            <h2>Cadastro do Pet</h2>
+            <div class="form-group">
+                <label for="nomePet">Nome do Pet</label>
+                <input type="text" class="form-control" id="nomePet" placeholder="Nome do pet">
+            </div>
+            <div class="form-group">
+                <label for="tipoPet">Tipo</label>
+                <select class="form-control" id="tipoPet">
+                    <option>Gato</option>
+                    <option>Cachorro</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="racaPet">Raça</label>
+                <input type="text" class="form-control" id="racaPet" placeholder="Raça">
+            </div>
+            <div class="form-group">
+                <label for="temperamentoPet">Temperamento</label>
+                <input type="text" class="form-control" id="temperamentoPet" placeholder="Temperamento">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 PetShop - Todos os direitos reservados</p>
+        <p>Contato: contato@petshop.com.br | Telefone: (11) 1234-5678</p>
+        <p>
+            <a href="index.html">Home</a> | 
+            <a href="produtos.html">Produtos</a> | 
+            <a href="servicos.html">Serviços</a> | 
+            <a href="cadastro.html">Cadastro</a> | 
+            <a href="agendamento.html">Agendamento</a>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
